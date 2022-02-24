@@ -1,0 +1,87 @@
+body { 
+background: #F1E0AC
+ }
+
+ h1, h2, h3 {font-family: 'Roboto',sans-serif ;}
+h1 {
+	color: #789395;
+	font-size: 62px;
+	font-weight: 900;
+	text-decoration: justify;
+	margin: auto auto;
+}
+
+h2 { color: #94B49F; 
+	 font-size: 28px;
+	 font-weight: 400;}
+
+h3 { font-size: 28px;
+	 font-weight: 400; }
+
+
+body { color: #325288 }
+
+ a {text-decoration: none;
+ 	font-weight: 600;
+ 	color: #789395 ;
+ 	background-color: #325288;
+ 	border-radius: 5px;
+ 	margin: 5px auto;
+ 	padding: 10px auto;
+
+ }
+ 	
+
+
+
+a:hover {
+	color: #325288 ;
+}
+
+div {width: 700px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#container { 
+	  background: #98B4AA;
+	  margin: 40px auto;}
+
+
+
+#introduction  { border: 1px solid black;
+	  margin: 25px auto;
+	  box-shadow: 5px 10px 30px rgba(0, 0, 0, .5);
+      background: #E5E3C9;
+      border-radius: 5px;}
+
+
+#sub-intro {border: 1px solid black;
+	  margin: 25px auto;
+	  box-shadow: 5px 10px 30px rgba(0, 0, 0, .5);
+      background: #E5E3C9;
+  	  border-radius: 5px;}
+
+#Interests {border: 1px solid black;
+	  margin: 25px auto;
+	  box-shadow: 5px 10px 30px rgba(0, 0, 0, .5);
+      background: #E5E3C9;
+  	  border-radius: 5px;
+  	  }
+
+#Interests li {list-style: none;
+				  }
+#Interests ul { padding-left: 0px; }				  
+
+#pe { border: 1px solid black;
+	  margin: 25px auto;
+	  box-shadow: 5px 10px 30px rgba(0, 0, 0, .5);
+      background: #E5E3C9;
+      border-radius: 5px; }
+
+
+@media (max-widht: 500px){
+	.container {width: 400px;
+		text-align: center;}
+}
+
